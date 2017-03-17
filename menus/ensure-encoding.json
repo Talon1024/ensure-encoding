@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ensure-encoding",
+        "command": "ensure-encoding:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ensure-encoding",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ensure-encoding:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

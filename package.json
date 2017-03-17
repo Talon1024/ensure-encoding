@@ -1,0 +1,18 @@
+{
+  "name": "ensure-encoding",
+  "main": "./lib/ensure-encoding",
+  "version": "0.0.0",
+  "description": "Automatically sets the encoding of a text editor based on the file or file type open in it.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "ensure-encoding:toggle"
+  },
+  "repository": "https://github.com/Talon1024/ensure-encoding",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
